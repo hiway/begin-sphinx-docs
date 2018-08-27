@@ -26,8 +26,8 @@ and any context and details they need to know.
 
 
 
-Create the documentation files
-------------------------------
+Create documentation files
+--------------------------
 
 .. code-block:: text
 
@@ -39,8 +39,8 @@ Add relevant content to the files with:
 - ``nano source/checklists.rst``
 
 
-Example content:
-----------------
+What to Write?
+--------------
 
 ``howto.rst``
 ^^^^^^^^^^^^^

@@ -4,8 +4,7 @@ Configure
 We installed Python and Sphinx in the `previous step <install_sphinx>`_.
 
 All that's left is to set up our documentation project with Sphinx.
-This is generally a one time setup,
-only touched again if you need other extensions later.
+This is a one time setup.
 
 .. note::
 
@@ -42,7 +41,7 @@ Options that you need to enter/change:
   - ``Separate source and build directories (y/n) [n]:`` **y**
   - ``Project name:`` **choose a short project name**
   - ``Author name(s):`` **names of authors**
-  - ``Project release []:`` **2018.00.00**
+  - ``Project release []:`` **2018.08.27**
   - ``Do you want to use the epub builder (y/n) [n]:`` **y**
   - ``githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:`` **y**
 

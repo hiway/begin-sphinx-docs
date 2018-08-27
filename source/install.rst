@@ -13,26 +13,25 @@ Install
   - Android *may* work using Termux app, though it is not covered here.
   - Windows is not covered at the moment by this tutorial.
 
-Accessing the Terminal
-----------------------
+.. note:: Access the terminal
 
-To run the commands that follow, open a Terminal app on your computer.
+    To run the commands that follow, open a Terminal app on your computer.
 
-**MacOS**
+    **MacOS**
 
-- Press ``Cmd+Space``, to invoke Spotlight Search and type "terminal".
-- Spotlight selects Terminal app as the top hit.
-- Press ``Enter``.
-- Type (or copy/paste) commands into the terminal, one by one.
+    - Press ``Cmd+Space``, to invoke Spotlight Search and type "terminal".
+    - Spotlight selects Terminal app as the top hit.
+    - Press ``Enter``.
+    - Type (or copy/paste) commands into the terminal, one by one.
 
 
-**Debian / Ubuntu / FreeBSD**
+    **Debian / Ubuntu / FreeBSD**
 
-- Only required if you are in a desktop environment.
-  ``Alt+F2`` or ``Alt+R`` should bring up a dialog asking for command to run.
-- Type "xterm".
-- Press ``Enter``.
-- Type (or copy/paste) commands into the terminal, one by one.
+    - Only required if you are in a desktop environment.
+      ``Alt+F2`` or ``Alt+R`` should bring up a dialog asking for command to run.
+    - Type "xterm".
+    - Press ``Enter``.
+    - Type (or copy/paste) commands into the terminal, one by one.
 
 
 Install Python 3
@@ -100,8 +99,8 @@ Create a directory to hold all the related files.
 - ``cd ~/Documents/howto-docs``
 
 
-Create and use a virtual environment
-------------------------------------
+Create and use virtual environment
+----------------------------------
 
 - ``pipenv --three``
 - ``pipenv shell``

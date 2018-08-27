@@ -11,6 +11,9 @@ Build
     - ``pipenv shell``
 
 
+Using ``make`` to build docs
+----------------------------
+
 Sphinx uses the ``make`` tool to simplify running common tasks:
 
 Before every new session of editing run ``make clean``
