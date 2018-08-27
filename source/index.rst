@@ -54,4 +54,9 @@ Alternatively, you may choose to jump into a specific topic below:
    configure
    write
    build
+
+..
    publish
+   extend
+   review
+   archive
