@@ -24,7 +24,7 @@ copyright = '2018, Harshad Sharma'
 author = 'Harshad Sharma'
 
 # The short X.Y version
-version = ''
+version = '2018.08.27'
 # The full version, including alpha/beta/rc tags
 release = '2018.08.27'
 
@@ -40,6 +40,7 @@ release = '2018.08.27'
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinxcontrib.spelling',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -178,3 +179,32 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
+
+# Bibliographic info.
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
+# Spelling
+spelling_lang = 'en_US'
+spelling_word_list_filename = 'jargon.txt'
+spelling_show_suggestions = True
+spelling_ignore_pypi_package_names = True
+spelling_ignore_wiki_words = True
+spelling_ignore_acronyms = True
+spelling_ignore_python_builtins = True
+spelling_ignore_importable_modules = True
+
